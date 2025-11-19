@@ -1,0 +1,45 @@
+# name: wear
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - conda-forge
+dependencies:
+  - python==3.12 # 3.13 not compatible with pymc
+  - numpy
+  - scipy
+  - sympy
+  - pandas
+  - ipykernel
+  - jupyter
+  - ipympl
+  - scikit-learn
+  - scikit-image
+  - scikit-optimize # for hyperparameter optimization
+  - matplotlib
+  - seaborn
+  - plotly
+  # pymc related packages:
+  - graphviz
+  - arviz
+  - pymc
+  - numba
+  - xarray
+  
+  - joblib # for saving and loading models
+  - statsmodels
+  - neurokit2
+  - filterpy # for particle filtering
+  - dtaidistance # dtw
+
+  - pip==25.2
+  - pip:
+    - bambi
+    - kulprit
+    - nutpie
+    - preliz
+    - PyMC-BART
+    - cycler
+
+    - heartpy
+    - garmin-fit-sdk
+# prefix: /home/sunuk/miniconda3/envs/wear
