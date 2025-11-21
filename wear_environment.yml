@@ -15,9 +15,13 @@ dependencies:
   - scikit-learn
   - scikit-image
   - scikit-optimize # for hyperparameter optimization
+  #- scikit-digital-health # gaitmap replaces this -- skdh is for lumbar-located sensors
   - matplotlib
   - seaborn
   - plotly
+  # visualize tf models:
+  - graphviz
+  - pydot
   # pymc related packages:
   - graphviz
   - arviz
@@ -42,4 +46,6 @@ dependencies:
 
     - heartpy
     - garmin-fit-sdk
+    - gaitmap
+    - gaitmap_mad
 # prefix: /home/sunuk/miniconda3/envs/wear
