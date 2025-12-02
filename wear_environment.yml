@@ -35,7 +35,7 @@ dependencies:
   - filterpy # for particle filtering
   - dtaidistance # dtw
 
-  - pip==25.2
+  - pip==25.2 # this version requested by pymc
   - pip:
     - bambi
     - kulprit
@@ -48,4 +48,5 @@ dependencies:
     - garmin-fit-sdk
     - gaitmap
     - gaitmap_mad
+   #- tensorflowand-cuda # install tensorflow separately; sensitive to gpu 
 # prefix: /home/sunuk/miniconda3/envs/wear
