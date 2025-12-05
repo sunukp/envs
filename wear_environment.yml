@@ -29,11 +29,13 @@ dependencies:
   - numba
   - xarray
   
+  - xgboost
   - joblib # for saving and loading models
   - statsmodels
   - neurokit2
   - filterpy # for particle filtering
   - dtaidistance # dtw
+  - pwlf # piecewise linear fit
 
   - pip==25.2 # this version requested by pymc
   - pip:
