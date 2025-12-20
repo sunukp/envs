@@ -37,6 +37,10 @@ dependencies:
   - dtaidistance # dtw
   - pwlf # piecewise linear fit
 
+  # image handling
+  - rawpy # raw ARW image format requires this (PIL cannot handle ARW)
+  - exifread # extract exif from image files
+
   - pip==25.2 # this version requested by pymc
   - pip:
     - bambi
