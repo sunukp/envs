@@ -45,6 +45,8 @@ dependencies:
   #- pyvista # Physically-Based Rendering (PBR)
 
   - tslearn # ML-ready DTW implementation
+
+  - infomeasure # entropy
   
   - pip==25.2 # this version requested by pymc
   - pip:
