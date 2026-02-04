@@ -36,6 +36,7 @@ dependencies:
   - filterpy # for particle filtering
   - dtaidistance # dtw
   - pwlf # piecewise linear fit
+  - umap-learn # better alternative to t-SNE
 
   # image handling
   - rawpy # raw ARW image format requires this (PIL cannot handle ARW)
