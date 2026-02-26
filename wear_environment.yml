@@ -61,5 +61,7 @@ dependencies:
     - garmin-fit-sdk
     - gaitmap
     - gaitmap_mad
+
+    - EntropyHub
    #- tensorflowand-cuda # install tensorflow separately; sensitive to gpu 
 # prefix: /home/sunuk/miniconda3/envs/wear
