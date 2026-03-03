@@ -1,6 +1,7 @@
 # envs
 
 (torch) violi@Paganini:/mnt/c/Users/violi$ nvidia-smi
+
     Tue Mar  3 14:06:40 2026
     +-----------------------------------------------------------------------------------------+
     | NVIDIA-SMI 580.112                Driver Version: 581.95         CUDA Version: 13.0     |
