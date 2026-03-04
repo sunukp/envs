@@ -5,7 +5,18 @@ channels:
   - conda-forge
 dependencies:
   - python==3.12 # 3.13 not compatible with pymc
-  - pytorch
-  - torchvision 
-  - torchaudio
+  - jupyter
+  - ipykernel
+  - scikit-learn
+  - scipy
+  - pandas
+  - matplotlib
+  - imageio
   - timm
+  
+  - pip==25.2 # this version requested by pymc
+  - pip:
+    - torch
+    - torchvision
+    - torchaudio
+    - transformers
