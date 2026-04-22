@@ -47,6 +47,8 @@ dependencies:
   - tslearn # ML-ready DTW implementation
 
   - infomeasure # entropy
+
+  - pysr # finds optimal regressor
   
   - pip==25.2 # this version requested by pymc
   - pip:
