@@ -67,4 +67,5 @@ dependencies:
     - EntropyHub
     - opencv-python
    #- tensorflowand-cuda # install tensorflow separately; sensitive to gpu 
+   #- jax[cuda13] # also separate
 # prefix: /home/sunuk/miniconda3/envs/wear
